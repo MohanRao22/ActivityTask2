@@ -1,6 +1,6 @@
 1. List 5 difference between Browser JS(console) vs  Nodejs
 
-Browser JS:
+Browser JS(console):
 ===============
 * Javascript is scripting / programming language which runs code in Browser
 * It is basically used for client side.
@@ -10,7 +10,7 @@ Browser JS:
 
 
 
-Node JS:
+Node JS(console):
 =============
 * NodeJS is an run time environment for Javascript which runs  outside the browser
 * It is basically used for server side.
@@ -24,9 +24,9 @@ Node JS:
 
 1. Html file is parsed using HTML PARSER and creates DOM TREE.(Document object Model).
 2. Css file is parsed using CSS PARSER and creates CSSOM TREE(Cascading Style Sheet Object Model).
-3. It creates both the trees and interact with Js using Js engine.
+3. It creates both the trees and interact with Js using Js engine. (for e.g: v8,chakra)
 4. While Using script, link, Style -> external  reference file the execution of DOM stops and go to particular file renders the file and then continues the DOM rendering.
-5. While placing script it is recommeded that the script should be bottom within body element. Because the actual dom renders and finally external files loads.
+5. While placing script, it is recommeded that the script should be bottom within the body element. Because the actual dom renders and finally external files loads.
 6. we can use attribute defer/async to script which prevents the file is not painted on screen untill all file loads in the website.
 7. It renders over render-object, render-style, line-boxes, layers
 
